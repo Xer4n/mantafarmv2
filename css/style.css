@@ -1,0 +1,12 @@
+html {
+    scroll-behavior: smooth;
+}
+
+#hero {
+    font-family: "Orbitron", sans-serif;
+}
+
+#menu {
+    transition: max-height 0.3s ease-in-out;
+    overflow: hidden;
+}
