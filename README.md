@@ -1,1 +1,1 @@
-MantaFarm v2
+Redesign for the www.mantafarma.nl site.
