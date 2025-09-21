@@ -1,1 +1,1 @@
-Redesign for the www.mantafarma.nl site.
+Redesign for the www.mantafarm.nl site.
