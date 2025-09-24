@@ -367,6 +367,19 @@ body {
     filter: invert(0.7); /* subtle hover effect */
 }
 
+.footer {
+    background-color: #111;
+    color: #d1d5db;
+    padding: 2rem 1rem;
+    text-align: center;
+    font-size: 0.9rem;
+}
+
+.footer-container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
 @media (max-width: 768px) {
     .events-calendar {
         order: 2;
