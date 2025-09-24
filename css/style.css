@@ -202,6 +202,67 @@ body {
     right: 10px;
 }
 
+.info {
+    padding: 6rem 2rem;
+    background-color: #111;
+    color: #fff;
+}
+
+.info-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 4rem;
+    flex-wrap: wrap;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.info-text {
+    flex: 1;
+    min-width: 280px;
+}
+
+.info-text h2 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+    font-weight: 700;
+}
+
+.info-text p {
+    font-size: 1.25rem;
+    line-height: 1.6;
+    color: #d1d5db;
+    margin-bottom: 1.5rem;
+}
+
+.info-btn {
+    display: inline-block;
+    margin-top: 2rem;
+    padding: 0.75rem 1.5rem;
+    background: #94c14d;
+    color: #000;
+    font-weight: 600;
+    border-radius: 999px;
+    text-decoration: none;
+    transition: background 0.3s ease;
+}
+
+.info-btn:hover {
+    background: #698738;
+}
+
+.highlights {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.highlights li {
+    margin-bottom: 0.75rem;
+    font-size: 1.1rem;
+}
+
 .events {
     padding: 6rem 2rem;
     background-color: #111;
@@ -245,6 +306,65 @@ body {
     height: 500px;
     border-radius: 12px;
     border: 0;
+}
+
+.contact {
+    padding: 6rem 2rem;
+    background-color: #111;
+    color: #fff;
+    text-align: center;
+}
+
+.contact-container {
+    max-width: 700px;
+    margin: 0 auto;
+}
+
+.contact h2 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+    font-weight: 700;
+}
+
+.contact p {
+    font-size: 1.25rem;
+    color: #d1d5db;
+    margin-bottom: 2rem;
+}
+
+.contact-email {
+    display: inline-block;
+    padding: 0.75rem 1.5rem;
+    background: #94c14d;
+    color: #000;
+    font-weight: 600;
+    border-radius: 999px;
+    text-decoration: none;
+    transition: background 0.3s ease;
+}
+
+.contact-email:hover {
+    background: #698738;
+}
+
+.contact-socials {
+    display: flex;
+    justify-content: center;
+    gap: 1.5rem;
+    margin-top: 1.5rem;
+}
+
+.contact-socials img.social-icon {
+    width: 40px;
+    height: 40px;
+    transition:
+        transform 0.2s ease,
+        filter 0.2s ease;
+}
+
+.contact-socials img.social-icon:hover {
+    transform: scale(1.1);
+    filter: invert(0.7); /* subtle hover effect */
 }
 
 @media (max-width: 768px) {
