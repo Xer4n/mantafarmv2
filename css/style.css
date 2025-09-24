@@ -159,6 +159,44 @@ body {
     border-radius: 12px;
     object-fit: cover;
 }
+
+.slideshow {
+    position: relative;
+    max-width: 500px;
+    border-radius: 12px;
+    overflow: hidden;
+}
+
+.slides img {
+    display: none;
+    width: 100%;
+    height: auto;
+    border-radius: 12px;
+}
+
+.slides img.active {
+    display: block;
+}
+
+.slideshow button {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background: rgba(0, 0, 0, 0.5);
+    color: #fff;
+    border: none;
+    font-size: 2rem;
+    padding: 0.5rem;
+    cursor: pointer;
+}
+
+.prev {
+    left: 10px;
+}
+.next {
+    right: 10px;
+}
+
 .events {
     padding: 6rem 2rem;
     background-color: #111;
